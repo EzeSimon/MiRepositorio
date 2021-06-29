@@ -1,0 +1,90 @@
+/*variables*/
+/*import*/
+/*anidacion*/
+main section p {
+  color: #ffffff;
+  outline-color: #000000; }
+
+nav div a {
+  color: #f0a016; }
+
+div h5 {
+  color: #ffffff;
+  outline: 1;
+  outline-width: 2px;
+  outline-color: #000000; }
+
+div p {
+  color: #ffffff;
+  outline: 1;
+  outline-width: 2px;
+  outline-color: #000000; }
+
+/*clases*/
+.productos__imagen--size, .panificados__imagen--size {
+  width: 250px;
+  height: 250px; }
+
+.panificados__imagen--size {
+  border-width: 3px;
+  border-style: solid;
+  border-color: #000000; }
+
+.body--fondo {
+  background-image: url(../imagenes/fondo2.jpg); }
+
+.footer__redes--size {
+  width: 25px;
+  height: 25px; }
+
+.cursos__tabla--position {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  padding-top: 200px;
+  margin-top: 200px; }
+
+.quienes__video--position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+  margin-bottom: 15vh; }
+
+.containerPanificados {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 250px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+  grid-row-gap: 100px; }
+
+.containerPanificados2 {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 300px 300px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px; }
+
+.transform:hover {
+  transform: translateY(-10px);
+  transition: transform 0.5s;
+  cursor: pointer; }
+
+.contacto__form--margin {
+  margin-top: 25vh;
+  margin-bottom: 15vh; }
+
+.gris {
+  background-color: #949494; }
+
+.borde {
+  border-color: #f0a016;
+  border-width: 3px;
+  border-style: solid; }
+
+.fondoWeb {
+  background-image: url("imagenes/fondo2.jpg");
+  width: 100vw; }

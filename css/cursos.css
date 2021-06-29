@@ -1,0 +1,46 @@
+.redesSize {
+  width: 25px;
+  height: 25px; }
+
+.cursosTablas {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  padding-top: 200px;
+  margin-top: 200px; }
+
+.videoQuienes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+  margin-bottom: 15vh; }
+
+.containerPanificados {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 250px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px; }
+
+.transform:hover {
+  transform: translateY(-10px);
+  transition: transform 0.5s;
+  cursor: pointer; }
+
+.contactoForm {
+  margin-top: 25vh;
+  margin-bottom: 15vh; }
+
+.gris {
+  background-color: #949494; }
+
+.borde {
+  border-color: black;
+  border-width: 3px;
+  border-style: solid; }
+
+.fondoWeb {
+  background-image: url("imagenes/fondo2.jpg");
+  width: 100vw; }
